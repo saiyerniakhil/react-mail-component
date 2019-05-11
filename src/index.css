@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.first-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.single-line-email {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 5px;
+}
+.msg-glimpse {
+  display: flex;
+  justify-content: center;
+  color: grey;
+}
+.total-email {
+  margin-top: 30px;
+  display: flex;
+  width: 850px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  background-color: #F5F5F5;;
+}
+.check-box {
+  margin-top: 15px;
+
+}
